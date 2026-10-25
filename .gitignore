@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local runtime data
+*.db
+*.db-shm
+*.db-wal
+sessions.json
+embedding_cache/
+.deepeval/
+
+# Source documents (add your own locally)
+documents/
